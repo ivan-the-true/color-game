@@ -25,6 +25,9 @@ h1 {
   text-transform: uppercase;
   transition: backgroundColor 1.8s;
   transition: color 0.8s;
+  text-shadow: 0px 4px 3px rgba(255,255,255,0.4),
+               0px 8px 13px rgba(255,255,255,0.1),
+               0px 18px 23px rgba(255,255,255,0.1);
 }
 
 .square {
