@@ -14,16 +14,24 @@
   <body>
 
     <h1><span class="color-inverted" id="headerText"> The Great <br><span id="colorClue"></span> <br>Color Guessing Game</span></h1>
-    <div id="stripe" class="d-flex justify-content-between">
-      <span class="input">
-        <button id="resetButton">New Colors <i class="fas fa-sync-alt"></i></button>
-      </span>
+    <div id="stripe" class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 stripe">
           <span id="messageDisplay">Try to guess which square is the color defined by the RGB value above!</span>
+        </div>
+        <div class="col-xs-4 stripe d-flex" style="align-items: center;">
+          <span class="input">
+            <button id="resetButton">New Colors <i class="fas fa-sync-alt"></i></button>
+          </span>
+        </div>
+        <div class="col-xs-8 stripe">
           <span class="input">
             <input type="radio" name="difficultyButton" value="3"> Easy </button>
             <input type="radio" name="difficultyButton" value="6" checked> Hard </button>
             <input type="radio" name="difficultyButton" value="9"> Harder </button>
           </span>
+        </div>
+      </div>
     </div>
     <div id="squareContainer">
     </div>

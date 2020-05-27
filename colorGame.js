@@ -77,7 +77,7 @@ function getRandomRGBColor() {
 function executeGameOver() {
   messageDisplay.textContent = "Winner winner chicken dinner!";
   setSquareColorsToUniform(winningColor);
-  resetButton.textContent = "Play Again?"
+  resetButton.textContent = "Play Again!"
   gameOver = true;
   //todo
   //add in logic you put "Y-O-U W-I-N" in the squares after a game.
